@@ -24,8 +24,8 @@ ui <- dashboardPage(
                   title ="Shoe Size Chooser", status = "primary", solidHeader = TRUE,
                   plotOutput("plot1", width="100%")
                 ),
-                tags$a(href="http://inresgb-lehre.iaas.uni-bonn.de/impressum/", "Impressum", 
-                       style = "font-size:25px;",style = "color: black;")
+                #tags$a(href="....", "Impressum", 
+                     #  style = "font-size:25px;",style = "color: black;")
               )
       )
     )
